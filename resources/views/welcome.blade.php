@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica2</title>
-</head>
-<body>
-    
-</body>
-</html>
+<!-- <h1>hola mundo</h1> -->
+@extends('plantilla')
+    @section('contenido')
+
+    <div class = row>
+        <div class = "col-10">
+      <h1>home de los homes</h1>
+
+        </div>
+    @endsection
+

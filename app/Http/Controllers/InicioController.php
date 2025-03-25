@@ -11,6 +11,11 @@ class InicioController extends Controller
         return view('inicio');
     }
 
+    public function home()
+    {
+        return view('home');
+    }
+
     public function v1()
     {
         return view('v1');
@@ -23,5 +28,9 @@ class InicioController extends Controller
     public function v3()
     {
         return view('v3');
+    }
+    public function v4()
+    {
+        return view('v4');
     }
 }
