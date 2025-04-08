@@ -1,24 +1,23 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ url('/v1') }}">Luna</a>
+    <a class="navbar-brand" href="{{route('inicio')}}">Inicio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ url('/home') }}">Casa</a>
+          <a class="nav-link active" aria-current="page" href="{{route('v1')}}">Luna</a>
         </li>
         <li class="nav-item">
-  <a class="nav-link" href="{{ url('/v2') }}">sol</a>
+  <a class="nav-link" href="{{route('v2')}}">sol</a>
 </li>
         <li class="nav-item">
-  <a class="nav-link" href="{{ url('/v3') }}">estrellas</a>
+  <a class="nav-link" href="{{route('v3')}}">estrellas</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="{{ url('/v4') }}">galaxia</a>
+  <a class="nav-link" href="{{route('v4')}}">galaxia</a>
 </li>
-
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Speectmoon</a>
         </li>
